@@ -44,7 +44,7 @@ M1 = point_multiplication(P, k, a, p)
 
 kB =  point_multiplication(B, k, a, p)
 M2 = point_addition(M, kB, a, p)
-
+key = point_addition(M2, kB, a, p)
 print(B)
 print(M1)
 print(M2)
